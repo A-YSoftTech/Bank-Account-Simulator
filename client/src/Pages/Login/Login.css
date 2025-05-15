@@ -1,0 +1,96 @@
+.login{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg, rgb(246, 187, 246), rgba(74, 74, 249, 0.763));
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+.login-logo{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+    align-items: start;
+}
+.login-img{
+    height: 100%;
+    width: 20%;
+    margin-left: 2rem;
+}
+.login-body{
+    margin-top: 0.5rem;
+    height: auto;
+    width: 35%;
+    border-radius: 25px;
+    background-color: rgba(1, 1, 42, 0.763);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    gap: 1rem;
+}
+.login-body-h2{
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.login-body-p{
+    font-size: 1vw;
+    font-weight: 200;
+}
+.login form{
+    /* background-color: pink; */
+    width: 80%;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+}
+form .input{
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: rgba(114, 114, 114, 0.511);
+}
+form .input input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 2rem;
+    width: 80%;
+    color: white;
+    font-size: 1.2vw;
+    text-align: start;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+form .input img{
+    height: 1rem;
+    width: 1rem;
+}
+
+.forgot-pass{
+    color: blueviolet;
+    cursor: pointer;
+}
+.login-btn{
+    height: 3.5rem;
+    width: 100%;
+    font-size: 1.2vw;
+    border-radius: 2rem;
+    background-color: rgba(80, 80, 245, 0.713);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.signUp{
+    color: blueviolet;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.1vw;
+}

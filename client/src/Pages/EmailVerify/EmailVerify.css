@@ -1,0 +1,75 @@
+.email{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg, rgb(246, 187, 246), rgba(74, 74, 249, 0.763));
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+.email-logo{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+    align-items: start;
+}
+.email-img{
+    height: 100%;
+    width: 20%;
+    margin-left: 2rem;
+}
+.email form{
+    margin-top: 5rem;
+    height: auto;
+    width: 35%;
+    border-radius: 25px;
+    background-color: rgba(1, 1, 42, 0.763);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    gap: 1rem;
+}
+form h2{
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+form p{
+    font-size: 1vw;
+    font-weight: 200;
+}
+form .email-input{
+    height: 70%;
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(114, 114, 114, 0.511); */
+}
+form .email-input input{
+    background-color: rgba(114, 114, 114, 0.511);
+    border: none;
+    outline: none;
+    height: 3rem;
+    border-radius: 0.5rem;
+    width: 12%;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0.5rem;
+}
+.verify-btn{
+    height: 6rem;
+    width: 100%;
+    font-size: 1.2vw;
+    border-radius: 2rem;
+    background-color: rgba(80, 80, 245, 0.713);
+    border: none;
+    color: white;
+    cursor: pointer;
+}

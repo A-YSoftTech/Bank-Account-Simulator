@@ -1,0 +1,70 @@
+.trans-history {
+    height: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    /* background-color: rgba(1, 1, 42, 0.763); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.trans-history span h2 {
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+.trans-scroll{
+    height: 100%;
+    width: 100%;
+    padding: 0 2rem 0 0;
+    /* background-color: aquamarine; */
+    overflow-y: scroll;
+}
+
+.trans-history table thead tr th{
+    height: 100%;
+    width: 100%;
+    /* background: orange; */
+    /* border: 3px solid black; */
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    /* white-space: nowrap; */
+}
+
+.trans-history table tbody tr td{
+    /* background: lawngreen; */
+    /* border: 3px solid black; */
+    font-size: 1vw;
+    font-weight: 300;
+    text-align: center;
+    padding: 0.5rem;
+    /* white-space: nowrap; */
+}
+.trans-history span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.trans-history span button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 25%;
+    border: none;
+    outline: none;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdcX1K3QUWU8zY8t_9SlG8INLb6TWtIDIe5A&s');
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.trans-history span button:hover{
+    scale: 1.1;
+}

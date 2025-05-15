@@ -1,0 +1,30 @@
+.details{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 5rem 5rem;
+    color: white;
+}
+.details-img{
+    height: 30%;
+    width: 40%;
+    padding: 2rem;
+    background-color: rgba(128, 128, 128, 0.407);
+    border-radius: 50%;
+    margin-left: 25%;
+}
+.details h2{
+    font-size: 2vw;
+    font-weight: 400;
+}
+.details p{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+.details p i{
+    font-size: 1.5vw;
+}
